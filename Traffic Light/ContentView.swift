@@ -24,8 +24,7 @@ struct ContentView: View {
                 Spacer()
                 button
             }
-            .padding(.top, 100)
-            .padding(.bottom, 20)
+            .padding()
         }
     }
     
@@ -46,7 +45,6 @@ struct ContentView: View {
                 .foregroundColor(.white)
                 .background(.blue)
                 .clipShape(Capsule())
-                .padding()
         }
     }
     
