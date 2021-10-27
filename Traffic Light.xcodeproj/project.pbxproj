@@ -11,6 +11,7 @@
 		7889EF4D27294F770027B77F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7889EF4C27294F770027B77F /* ContentView.swift */; };
 		7889EF4F27294F7A0027B77F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7889EF4E27294F7A0027B77F /* Assets.xcassets */; };
 		7889EF5227294F7A0027B77F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7889EF5127294F7A0027B77F /* Preview Assets.xcassets */; };
+		7889EF5927294F990027B77F /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7889EF5827294F990027B77F /* CircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		7889EF4C27294F770027B77F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7889EF4E27294F7A0027B77F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7889EF5127294F7A0027B77F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7889EF5827294F990027B77F /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				7889EF4A27294F770027B77F /* Traffic_LightApp.swift */,
 				7889EF4C27294F770027B77F /* ContentView.swift */,
+				7889EF5827294F990027B77F /* CircleView.swift */,
 				7889EF4E27294F7A0027B77F /* Assets.xcassets */,
 				7889EF5027294F7A0027B77F /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7889EF5927294F990027B77F /* CircleView.swift in Sources */,
 				7889EF4D27294F770027B77F /* ContentView.swift in Sources */,
 				7889EF4B27294F770027B77F /* Traffic_LightApp.swift in Sources */,
 			);
